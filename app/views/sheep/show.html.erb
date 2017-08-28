@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sheep.name %>
+</p>
+
+<p>
+  <strong>Personality:</strong>
+  <%= @sheep.personality %>
+</p>
+
+<%= link_to 'Edit', edit_sheep_path(@sheep) %> |
+<%= link_to 'Back', sheep_index_path %>

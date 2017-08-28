@@ -1,0 +1,27 @@
+<%= form_with(model: sheep, local: true) do |form| %>
+  <% if sheep.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sheep.errors.count, "error") %> prohibited this sheep from being saved:</h2>
+
+      <ul>
+      <% sheep.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :sheep_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :personality %>
+    <%= form.text_field :personality, id: :sheep_personality %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
