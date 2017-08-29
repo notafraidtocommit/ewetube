@@ -5,8 +5,9 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Personality</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Priority</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,8 +15,9 @@
   <tbody>
     <% @sheep.each do |sheep| %>
       <tr>
-        <td><%= sheep.name %></td>
-        <td><%= sheep.personality %></td>
+        <td><%= sheep.description %></td>
+        <td><%= sheep.status %></td>
+        <td><%= sheep.priority %></td>
         <td><%= link_to 'Show', sheep %></td>
         <td><%= link_to 'Edit', edit_sheep_path(sheep) %></td>
         <td><%= link_to 'Destroy', sheep, method: :delete, data: { confirm: 'Are you sure?' } %></td>

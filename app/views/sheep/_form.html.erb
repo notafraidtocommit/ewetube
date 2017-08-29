@@ -12,13 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, id: :sheep_name %>
+    <%= form.label :description %>
+    <%= form.text_field :description, id: :sheep_description %>
   </div>
 
   <div class="field">
-    <%= form.label :personality %>
-    <%= form.text_field :personality, id: :sheep_personality %>
+    <%= form.label :status %>
+    <%= form.text_field :status, id: :sheep_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :priority %>
+    <%= form.text_field :priority, id: :sheep_priority %>
   </div>
 
   <div class="actions">

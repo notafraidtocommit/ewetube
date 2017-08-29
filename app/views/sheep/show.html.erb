@@ -1,13 +1,18 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @sheep.name %>
+  <strong>Description:</strong>
+  <%= @sheep.description %>
 </p>
 
 <p>
-  <strong>Personality:</strong>
-  <%= @sheep.personality %>
+  <strong>Status:</strong>
+  <%= @sheep.status %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @sheep.priority %>
 </p>
 
 <%= link_to 'Edit', edit_sheep_path(@sheep) %> |

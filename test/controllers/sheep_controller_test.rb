@@ -17,7 +17,7 @@ class SheepControllerTest < ActionDispatch::IntegrationTest
 
   test "should create sheep" do
     assert_difference('Sheep.count') do
-      post sheep_index_url, params: { sheep: { name: @sheep.name, personality: @sheep.personality } }
+      post sheep_index_url, params: { sheep: { description: @sheep.description, priority: @sheep.priority, status: @sheep.status } }
     end
 
     assert_redirected_to sheep_url(Sheep.last)
@@ -34,7 +34,7 @@ class SheepControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update sheep" do
-    patch sheep_url(@sheep), params: { sheep: { name: @sheep.name, personality: @sheep.personality } }
+    patch sheep_url(@sheep), params: { sheep: { description: @sheep.description, priority: @sheep.priority, status: @sheep.status } }
     assert_redirected_to sheep_url(@sheep)
   end
 

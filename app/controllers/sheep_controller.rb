@@ -69,6 +69,6 @@ class SheepController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def sheep_params
-      params.require(:sheep).permit(:name, :personality)
+      params.require(:sheep).permit(:description, :status, :priority)
     end
 end

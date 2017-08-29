@@ -1,10 +1,12 @@
 class CreateSheep < ActiveRecord::Migration[5.1]
   def change
     
+    drop_table :sheep
     
     create_table :sheep do |t|
-      t.string :name
-      t.string :personality
+      t.string :description
+      t.string :status
+      t.string :priority
 
       t.timestamps
     end

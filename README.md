@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This bug tracker is a learning experience and should not be used in a production environment. That being said, it should be good enough for most small projects and especially good for very small teams.
 
-Things you may want to cover:
+It is not so much feature free, but more distraction less. 
 
-* Ruby version
+The idea is to enter bugs quickly into the system, not to create work managing the bugs or worrying about blaming people.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+As a fun aside, this project began life as a na idea for sharing funny sheep videos on the web (EweTube) but quickly became a bug tracker in a very meta way. This is why bugs are called sheep and why developers may be counting sheep in order to fall asleep every night. :)
