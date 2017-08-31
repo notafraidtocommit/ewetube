@@ -1,8 +1,6 @@
 class CreateSheep < ActiveRecord::Migration[5.1]
   def change
     
-    drop_table :sheep
-    
     create_table :sheep do |t|
       t.string :description
       t.string :status
