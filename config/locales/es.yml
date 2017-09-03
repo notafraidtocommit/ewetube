@@ -6,3 +6,5 @@ es:
   sheep:
       index:
         heading: "El Sheepo"
+        description: "El descripto"
+        status: "el status"

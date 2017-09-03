@@ -6,3 +6,7 @@ en:
   sheep:
       index:
         heading: "Sheep"
+        
+      _form:
+        description: "Description"
+        status: "Status"

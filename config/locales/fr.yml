@@ -6,3 +6,5 @@ fr:
   sheep:
       index:
         heading: "Les Sheep"
+        description: "La Description"
+        status: "Le Status"

@@ -12,12 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label :description, t('.description') %>
     <%= form.trix_editor :description, id: :sheep_description %>
   </div>
 
   <div class="field">
-    <%= form.label :status %>
+    <%= form.label :status, t('.status') %>
     <%= form.text_field :status, id: :sheep_status %>
   </div>
 
