@@ -2,4 +2,7 @@ en:
 
   layouts:
     application:
-      title_html: "Hello"
+      title_html: "Hello"			
+  sheep:
+      index:
+        heading: "Sheep"

@@ -3,3 +3,6 @@ fr:
   layouts:
     application:
       title_html: "Quoi-Moi?"
+  sheep:
+      index:
+        heading: "Les Sheep"

@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Sheep</h1>
+<h1><%= t('.heading') %></h1>
 
 <table>
   <thead>
@@ -15,7 +15,7 @@
   <tbody>
     <% @sheep.each do |sheep| %>
       <tr>
-        <td><%= sheep.description %></td>
+        <td><%= sheep.description.html_safe %></td>
         <td><%= sheep.status %></td>
         <td><%= sheep.priority %></td>
         <td><%= link_to 'Show', sheep %></td>
