@@ -8,3 +8,4 @@ fr:
         heading: "Les Sheep"
         description: "La Description"
         status: "Le Status"
+        priority: "La priority"
